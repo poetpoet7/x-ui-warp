@@ -4,7 +4,7 @@
 
 ## 前提条件
 
-1.VPS 上运行：
+1.VPS 上运行fscarmen佬的脚本：
 
 ```Bash
 wget -N https://gitlab.com/fscarmen/warp/-/raw/main/menu.sh && bash menu.sh [option] [lisence/url/token]
