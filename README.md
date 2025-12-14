@@ -44,13 +44,13 @@ wget -N https://gitlab.com/fscarmen/warp/-/raw/main/menu.sh && bash menu.sh [opt
       "settings": {}
     },
     {
-      "tag": "warp_outbound", //自定义
+      "tag": "warp_outbound",
       "protocol": "socks",
       "settings": {
         "servers": [
           {
             "address": "127.0.0.1",
-            "port": 40000 //默认40000
+            "port": 40000
           }
         ]
       }
@@ -76,7 +76,7 @@ wget -N https://gitlab.com/fscarmen/warp/-/raw/main/menu.sh && bash menu.sh [opt
           "geosite:google",
           "domain:cloudflare.com",
           "domain:ai.com",
-          "domain:ip.gs" //自定义域名走warp出口
+          "domain:ip.gs"
         ]
       },
       {
